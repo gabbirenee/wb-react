@@ -4,6 +4,7 @@ import React from 'react';
 import { render } from 'react-dom';     //in first import statement, we need the whole package; on this import statement we only want the render method
 // when importing components, import using the file name
 import App from "./components/App";  
+import Router from "./components/Router";
 import './css/style.css';   // importing the css stuff
 
-render(<App />, document.querySelector("#main")); 
+render(<Router />, document.querySelector("#main")); 
